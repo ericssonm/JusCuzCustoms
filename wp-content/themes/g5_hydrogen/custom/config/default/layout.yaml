@@ -1,0 +1,52 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1448392388
+layout:
+  /header/:
+    -
+      - 'menu-4908 33.3'
+      - 'logo-1719 33.3'
+      - 'menu-6061 33.3'
+  /navigation/: {  }
+  /main/:
+    -
+      - position-breadcrumbs
+    -
+      - loginform-8637
+    -
+      - system-content-4649
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-4702 40'
+      - 'spacer-6822 30'
+      - 'branding-5923 30'
+  offcanvas:
+    -
+      - mobile-menu-3369
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  loginform-8637:
+    title: 'Login Form'
+  position-footer:
+    attributes:
+      key: footer

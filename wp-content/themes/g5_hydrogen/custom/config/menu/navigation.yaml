@@ -1,0 +1,6 @@
+ordering:
+  home: ''
+items:
+  home:
+    id: 4
+    type: custom
